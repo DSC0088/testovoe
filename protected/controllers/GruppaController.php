@@ -1,6 +1,11 @@
 <?php
 class GruppaController extends Controller{
 
+    public function actionTest(){
+
+    }
+
+
     public function actionIndex(){
         $n = new Gruppa();
         $gruppa = $n->getAll();
