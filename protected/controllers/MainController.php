@@ -46,18 +46,6 @@ class MainController extends Controller {
 
     public function actionCreate() {
 
-        /*
-        $str = print_r($_POST, true);
-        file_put_contents("vassa.txt", $str);
-        exit;
-        */
-
-        /*
-        $_POST['familia'] = 'Фами';
-        $_POST['navyki'] = Array ( 0 => 1, 1 => 2);
-        $_POST['gruppy'] = Array ( 0 => 1);
-        $_POST['nameste'] = '1';
-        */
 
         // Читаем
         $familia = isset($_POST['familia']) ? $_POST['familia']: '';
@@ -96,16 +84,6 @@ class MainController extends Controller {
 
 
     public function actionEdit(){
-        //$str = print_r($_POST, true);
-        //file_put_contents("vassa.txt", $str);
-
-        /*
-        $_POST['id'] = '17';
-        $_POST['familia'] = 'sdfsd';
-        $_POST['navyki'] = Array ( 0 => 1, 1 => 2);
-        $_POST['gruppy'] = Array ( 0 => 1);
-        $_POST['nameste'] = '1';
-        */
 
 
         // Читаем
